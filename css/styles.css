@@ -1,17 +1,17 @@
-:root {
+/* :root {
   --main-text-color: #434455;
   --second-text-color: #2e2f42;
   --main-background-color: #ffffff;
   --btn-hover-color: #4d5ae5;
   --main-line-height: 1.5;
   --main-font-size: 16px;
-}
+} */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--main-background-color);
-  color: var(--main-text-color);
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -51,10 +51,10 @@ body {
   text-decoration: none;
 }
 .contact-item {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #434455;
 }
 .contact-item:hover {
   color: #404bbf;
@@ -63,7 +63,6 @@ body {
   color: #404bbf;
 }
 /* --------------------------MAIN */
-/* h1  */
 .main-title {
   font-weight: bold;
   font-size: 56px;
@@ -78,14 +77,14 @@ h2 {
   letter-spacing: 2%;
   line-height: 1.11;
   text-transform: capitalize;
-  color: var(--second-text-color);
+  color: #2e2f42;
 }
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--second-text-color);
+  color: #2e2f42;
 }
 .hero {
 background-color: #2e2f42;
@@ -94,8 +93,8 @@ background-color: #2e2f42;
 .hero-button {
   font-family: inherit;
   font-weight: 500;
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4D5AE5;
   cursor: pointer;
@@ -110,19 +109,19 @@ background-color: #2e2f42;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #F4F4FD;
   color: #4d5ae5;
 }
 .filter-button-item:hover {
   background-color: #404BBF;
-  color: var(--main-background-color);
+  color: #ffffff;
 }
 .filter-button-item:focus {
   background-color: #404BBF;
-  color: var(--main-background-color);
+  color: #ffffff;
 }
 .list-paragraf {
   letter-spacing: 0.02em;
