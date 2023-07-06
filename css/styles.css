@@ -5,6 +5,8 @@
   --btn-color: #4d5ae5;
   --btn-hover-color: #404bbf;
   --third-text-color: #f4f4fd;
+  --modal-text-color: #8e8f99;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
